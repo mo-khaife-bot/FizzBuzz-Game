@@ -1,0 +1,73 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+* {
+  font-family: "MuseoModerno", sans-serif;
+  color: black;
+  background-color: white;
+}
+
+.main-title > .red,
+.main-title > .blue,
+.main-title > .green {
+  font-family: "Open Sans", sans-serif;
+  font-size: 60px;
+}
+
+.container {
+  max-width: 900px;
+}
+
+.btn {
+  font-size: 1.5rem;
+  padding: 0.25rem 1rem;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.btn.play {
+  background-color: #4242ff;
+}
+
+.result {
+  font-size: 2rem;
+}
+.blue,
+.blue-result {
+  color: blue;
+}
+
+.red,
+.red-result {
+  color: red;
+}
+
+.green,
+.green-result {
+  color: green;
+}
+
+.green,
+.blue,
+.red {
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.green-result,
+.red-result,
+.blue-result {
+  font-size: 35px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.big {
+  font-size: 45px;
+  font-weight: bold;
+}
