@@ -35,9 +35,10 @@
   background-color: #4242ff;
 }
 
-.result {
+.result-item {
   font-size: 2rem;
 }
+
 .blue,
 .blue-result {
   color: blue;
@@ -50,7 +51,7 @@
 
 .green,
 .green-result {
-  color: green;
+  color: #00bd10;
 }
 
 .green,
@@ -68,6 +69,9 @@
 }
 
 .big {
-  font-size: 45px;
-  font-weight: bold;
+  font-size: 60px;
+}
+
+.small {
+  font-size: 25px;
 }
